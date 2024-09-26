@@ -1,0 +1,12 @@
+{
+    "sshfs.configs": [
+        {
+            "name": "unsw",
+            "host": "d.cse.unsw.edu.au",
+            "username": "z5516222",
+            "password": "Elvis31415926@",
+            "newFileMode": "0o664",
+            "root": "/localstorage/z5516222/"
+        }
+    ]
+}
