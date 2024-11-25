@@ -1,0 +1,49 @@
+/* 全局字体样式 */
+body {
+    font-size: 19px;           /* 字体大小 */
+    line-height: 1.4;          /* 行间距，保证文字更紧凑 */
+    color: black !important;   /* 强制字体颜色为黑色 */
+    background-color: white !important; /* 强制背景为白色 */
+}
+
+/* 页面设置 */
+@page {
+    margin: 0mm; /* 页面边距，需根据实际需求调整 */
+    @bottom-right {
+        content: "Page " counter(page); /* 页码内容 */
+        font-size: 10px;                /* 页码字体大小 */
+        color: black;                   /* 页码颜色 */
+    }
+}
+
+/* 标题样式 */
+h1 {
+    font-size: 24px; /* 一级标题字体大小 */
+}
+h2 {
+    font-size: 20px; /* 二级标题字体大小 */
+}
+h3 {
+    font-size: 18px; /* 三级标题字体大小 */
+}
+
+/* 链接样式 */
+a {
+    color: black !important;    /* 链接字体颜色为黑色 */
+    text-decoration: none;      /* 移除下划线 */
+}
+
+/* 表格样式 */
+table {
+    border: 1px solid black;    /* 表格外边框 */
+    border-collapse: collapse;  /* 表格边框合并 */
+    width: 100%;                /* 表格宽度占满 */
+}
+
+th, td {
+    border: 1px solid black;    /* 单元格边框 */
+    padding: 8px;               /* 单元格内边距 */
+    text-align: left;           /* 左对齐 */
+    background-color: white !important; /* 强制单元格背景为白色 */
+    color: black !important;           /* 强制单元格文字为黑色 */
+}
