@@ -1,0 +1,26 @@
+\documentclass{article}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+
+\begin{document}
+\section*{基本信息}
+姓名：{{ name }} \\
+联系方式：{{ contact }}
+
+\section*{工作经验}
+\begin{itemize}
+  {% for exp in experiences %}
+  \item {{ exp.company }} - {{ exp.position }} ({{ exp.duration }})
+  \begin{itemize}
+    \item {{ exp.details }}
+  \end{itemize}
+  {% endfor %}
+\end{itemize}
+
+\section*{技能}
+\begin{itemize}
+  {% for skill in skills %}
+  \item {{ skill }}
+  {% endfor %}
+\end{itemize}
+\end{document}
