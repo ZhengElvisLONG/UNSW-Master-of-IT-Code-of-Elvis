@@ -1,0 +1,53 @@
+PING upd.edu.ph (202.92.131.119) 1472(1500) bytes of data.
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=1 ttl=52 time=189 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=2 ttl=52 time=177 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=3 ttl=52 time=177 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=4 ttl=52 time=187 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=5 ttl=52 time=187 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=6 ttl=52 time=186 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=7 ttl=52 time=175 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=8 ttl=52 time=188 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=9 ttl=52 time=189 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=10 ttl=52 time=188 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=11 ttl=52 time=181 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=13 ttl=52 time=170 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=14 ttl=52 time=187 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=15 ttl=52 time=180 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=16 ttl=52 time=186 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=17 ttl=52 time=190 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=18 ttl=52 time=168 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=20 ttl=52 time=188 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=21 ttl=52 time=185 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=22 ttl=52 time=189 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=23 ttl=52 time=179 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=24 ttl=52 time=189 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=25 ttl=52 time=193 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=26 ttl=52 time=190 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=27 ttl=52 time=177 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=28 ttl=52 time=162 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=29 ttl=52 time=191 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=30 ttl=52 time=188 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=31 ttl=52 time=179 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=32 ttl=52 time=185 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=33 ttl=52 time=180 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=34 ttl=52 time=188 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=35 ttl=52 time=188 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=36 ttl=52 time=183 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=37 ttl=52 time=189 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=38 ttl=52 time=185 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=39 ttl=52 time=188 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=40 ttl=52 time=175 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=41 ttl=52 time=174 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=42 ttl=52 time=188 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=43 ttl=52 time=179 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=44 ttl=52 time=188 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=45 ttl=52 time=188 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=46 ttl=52 time=178 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=47 ttl=52 time=183 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=48 ttl=52 time=180 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=49 ttl=52 time=188 ms
+1480 bytes from i131-119.upd.edu.ph (202.92.131.119): icmp_seq=50 ttl=52 time=166 ms
+
+--- upd.edu.ph ping statistics ---
+50 packets transmitted, 48 received, 4% packet loss, time 49069ms
+rtt min/avg/max/mdev = 161.586/183.087/193.298/6.974 ms

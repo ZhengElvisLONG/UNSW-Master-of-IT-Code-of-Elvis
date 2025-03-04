@@ -1,0 +1,55 @@
+PING uio.no (129.240.118.130) 222(250) bytes of data.
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=1 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=2 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=3 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=4 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=5 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=6 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=7 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=8 ttl=37 time=309 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=9 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=10 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=11 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=12 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=13 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=14 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=15 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=16 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=17 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=18 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=19 ttl=37 time=309 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=20 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=21 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=22 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=23 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=24 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=25 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=26 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=27 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=28 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=29 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=30 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=31 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=32 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=33 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=34 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=35 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=36 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=37 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=38 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=39 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=40 ttl=37 time=314 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=41 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=42 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=43 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=44 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=45 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=46 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=47 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=48 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=49 ttl=37 time=308 ms
+230 bytes from lb-w3d-prod-vip-vortex-www.uio.no (129.240.118.130): icmp_seq=50 ttl=37 time=308 ms
+
+--- uio.no ping statistics ---
+50 packets transmitted, 50 received, 0% packet loss, time 49070ms
+rtt min/avg/max/mdev = 307.565/307.996/314.384/0.948 ms

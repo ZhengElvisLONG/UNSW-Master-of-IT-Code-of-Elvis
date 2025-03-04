@@ -1,0 +1,55 @@
+PING flinders.edu.au (129.96.88.39) 472(500) bytes of data.
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=1 ttl=245 time=23.0 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=2 ttl=245 time=22.9 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=3 ttl=245 time=22.9 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=4 ttl=245 time=23.1 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=5 ttl=245 time=22.8 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=6 ttl=245 time=23.0 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=7 ttl=245 time=23.0 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=8 ttl=245 time=22.9 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=9 ttl=245 time=22.9 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=10 ttl=245 time=23.1 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=11 ttl=245 time=22.9 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=12 ttl=245 time=23.3 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=13 ttl=245 time=22.9 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=14 ttl=245 time=23.4 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=15 ttl=245 time=23.4 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=16 ttl=245 time=23.0 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=17 ttl=245 time=23.3 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=18 ttl=245 time=23.4 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=19 ttl=245 time=22.8 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=20 ttl=245 time=23.1 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=21 ttl=245 time=23.1 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=22 ttl=245 time=23.2 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=23 ttl=245 time=23.2 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=24 ttl=245 time=23.1 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=25 ttl=245 time=23.1 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=26 ttl=245 time=22.9 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=27 ttl=245 time=23.1 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=28 ttl=245 time=23.2 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=29 ttl=245 time=23.2 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=30 ttl=245 time=22.9 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=31 ttl=245 time=23.3 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=32 ttl=245 time=23.2 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=33 ttl=245 time=22.8 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=34 ttl=245 time=23.0 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=35 ttl=245 time=23.0 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=36 ttl=245 time=23.2 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=37 ttl=245 time=23.1 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=38 ttl=245 time=23.0 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=39 ttl=245 time=23.0 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=40 ttl=245 time=23.5 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=41 ttl=245 time=23.0 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=42 ttl=245 time=23.0 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=43 ttl=245 time=23.0 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=44 ttl=245 time=23.0 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=45 ttl=245 time=23.0 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=46 ttl=245 time=23.8 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=47 ttl=245 time=23.1 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=48 ttl=245 time=22.7 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=49 ttl=245 time=22.9 ms
+480 bytes from ms-imagine.flinders.edu.au (129.96.88.39): icmp_seq=50 ttl=245 time=23.1 ms
+
+--- flinders.edu.au ping statistics ---
+50 packets transmitted, 50 received, 0% packet loss, time 49064ms
+rtt min/avg/max/mdev = 22.681/23.077/23.804/0.200 ms
