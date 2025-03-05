@@ -1,0 +1,58 @@
+graph TD
+    %% 主项目结构
+    A[UNSW Developmental Wind Farm WBS] --> B[1 Project Initiation]
+    A --> C[2 Engineering Design]
+    A --> D[3 Procurement & Bidding]
+    A --> E[4 Construction]
+    A --> F[5 Commissioning & Testing]
+    A --> G[6 Project Management]
+    A --> H[7 Compliance & Documentation]
+    A --> I[8 Operations & Maintenance]
+
+    %% 项目启动
+    B[1 Project Initiation] --> B1[1.1 Strategic Alignment]
+    B --> B2[1.2 Feasibility Study]
+
+    %% 工程设计
+    C[2 Engineering Design] --> C1[2.1 Conceptual Design]
+    C --> C2[2.2 Detailed Design]
+
+    %% 招标采购
+    D[3 Procurement & Bidding] --> D1[3.1 Tender Process]
+    D --> D2[3.2 Contract Execution]
+
+    %% 施工
+    E[4 Construction] --> E1[4.1 Site Works]
+    E --> E2[4.2 Foundation]
+    E --> E3[4.3 Electrical]
+
+    %% 调试测试
+    F[5 Commissioning & Testing] --> F1[5.1 Unit Testing]
+    F --> F2[5.2 System Testing]
+    F --> F3[5.3 Remote Systems]
+
+    %% 项目管理
+    G[6 Project Management] --> G1[6.1 Cost Control]
+    G --> G2[6.2 Risk Mgmt]
+    G --> G3[6.3 Digital Tools]
+
+    %% 合规文档
+    H[7 Compliance & Documentation] --> H1[7.1 Approvals]
+    H --> H2[7.2 Deliverables]
+
+    %% 运维
+    I[8 Operations & Maintenance] --> I1[8.1 Performance]
+    I --> I2[8.2 Sustainability]
+
+    %% 关键路径
+    C1 -.->|Layout Finalized| D1
+    D2 -.->|Contract Signed| E1
+    E3 -.->|Power Ready| F2
+    F2 -.->|Grid Approved| I1
+    H1 -.->|Permit Released| E1
+
+    %% 样式定义
+    classDef phase fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+    classDef critical fill:#ffebee,stroke:#c62828
+    class B,C,D,E,F,G,H,I phase
+    class H1,B1 critical
