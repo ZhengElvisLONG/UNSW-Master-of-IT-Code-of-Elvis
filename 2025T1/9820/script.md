@@ -80,7 +80,7 @@ graph TD
 
     %% 工程设计
     C[2 Engineering Design] --> C1[2.1 Conceptual Design] %% 2.1 概念设计
-    C --> C2[2.2 Detailed Design] %% 2.2 详细设计
+    C --> C2[2.2 Design Drawings and Document (Detialed Design)] %% 2.2 详细设计
 
     %% 招标采购
     D[3 Procurement & Bidding] --> D1[3.1 Tender Process] %% 3.1 招标流程
@@ -102,7 +102,7 @@ graph TD
     G --> G3[6.3 Digital Tools] %% 6.3 数字工具
 
     %% 合规文档
-    H[7 Compliance & Documentation] --> H1[7.1 Approvals] %% 7.1 审批
+    H[7 Compliance & Documentation] --> H1[7.1 Compliance Process (Approvals)] %% 7.1 合规审批
     H --> H2[7.2 Deliverables] %% 7.2 交付物
 
     %% 运维
