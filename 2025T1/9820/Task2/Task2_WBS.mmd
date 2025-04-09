@@ -1,0 +1,74 @@
+graph TD
+    %% 主项目结构
+    A[UNSW Developmental Wind Farm WBS] --> B[1 Project Initiation 项目启动]
+    A --> C[2 Engineering Design 工程设计]
+    A --> D[3 Procurement & Bidding 招标采购]
+    A --> E[4 Construction 施工]
+    A --> F[5 Commissioning & Testing 调试测试]
+    A --> G[6 Project Management 项目管理]
+    A --> H[7 Compliance & Documentation 合规文档]
+    A --> I[8 Operations & Maintenance 运维]
+
+    %% 项目启动
+    B --> B1[1.1 Strategic Alignment 战略对齐]
+    B --> B2[1.2 Feasibility Study 可行性研究]
+
+    %% 工程设计
+    C --> C1[2.1 Conceptual Design 概念设计]
+    C --> C2[2.2 Design Drawings and Document - Detailed Design 详细设计]
+    C --> C3[2.3 Substation Design 变电站设计]
+    C --> C4[2.4 Energy Storage Design 储能设计]
+    C --> C5[2.5 Sensor and Testing Equipment Design 传感器和测试设备设计]
+    C --> C6[2.6 Performance Evaluation Equipment Design 绩效评估设备设计]
+    C --> C7[2.7 Grid Connection Design 电网连接设计]
+
+    %% 招标采购
+    D --> D1[3.1 Tender Process 招标流程]
+    D --> D2[3.2 Contract Execution 合同执行]
+    D --> D3[3.3 Stakeholder Analysis 利益相关者分析]
+
+    %% 施工
+    E --> E1[4.1 Site Works 场地工程]
+    E --> E2[4.2 Foundation 基础]
+    E --> E3[4.3 Electrical 电气工程]
+    E --> E4[4.4 Substation Construction 变电站建设]
+    E --> E5[4.5 Energy Storage Installation 储能安装]
+    E --> E6[4.6 Road Assessment and Construction 道路评估与建设]
+
+    %% 调试测试
+    F --> F1[5.1 Unit Testing 单元测试]
+    F --> F2[5.2 System Testing 系统测试]
+    F --> F3[5.3 Remote Systems 远程系统]
+    F --> F4[5.4 Equipment and Material Testing 设备材料测试]
+    F --> F5[5.5 Generator, Control, and Monitoring System Testing 发电机、控制和监管系统测试]
+
+    %% 项目管理
+    G --> G1[6.1 Cost Control 成本控制]
+    G --> G2[6.2 Risk Mgmt 风险管理]
+    G --> G3[6.3 Digital Tools 数字工具]
+    G --> G4[6.4 Employee Training 员工培训]
+    G --> G5[6.5 Commercial and Educational Integration 商业与教育整合]
+
+    %% 合规文档
+    H --> H1[7.1 Compliance Process - Approvals 合规审批]
+    H --> H2[7.2 Deliverables 交付物]
+    H --> H3[7.3 Warranty and Post-Project Scope 保修及项目后范围]
+
+    %% 运维
+    I --> I1[8.1 Performance 性能]
+    I --> I2[8.2 Sustainability 可持续性]
+    I --> I3[8.3 Wildlife Monitoring 野生动物监测]
+    I --> I4[8.4 Recycling Program 回收计划]
+
+    %% 关键路径
+    C1 -.->|Layout Finalized 布局确定| D1
+    D2 -.->|Contract Signed 合同签署| E1
+    E3 -.->|Power Ready 电力就绪| F2
+    F2 -.->|Grid Approved 电网批准| I1
+    H1 -.->|Permit Released 许可发布| E1
+
+    %% 样式定义
+    classDef phase fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+    classDef critical fill:#ffebee,stroke:#c62828
+    class B,C,D,E,F,G,H,I phase
+    class H1,B1 critical
