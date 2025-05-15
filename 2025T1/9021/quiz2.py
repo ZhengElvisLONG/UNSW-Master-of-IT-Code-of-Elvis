@@ -43,29 +43,39 @@
 
 
 def f(L):
-    less_than_index = []
-    equal_to_index = []
-    more_than_index = []
-    for index, value in enumerate(L):
-        if value < index:
-            less_than_index.append(value)
-        elif value == index:
-            equal_to_index.append(value)
-        else:
-            more_than_index.append(value)
-    return less_than_index + equal_to_index + more_than_index
+    result = []
+    for i in range(len(L)):
+        if L[i] < i:
+            result.append(L[i])
+    for i in range(len(L)):
+        if L[i] == i:
+            result.append(L[i])
+    for i in range(len(L)):
+        if L[i] > i:
+            result.append(L[i])
+    return result
+# print(f([0, 2, 12, 3, 4, 6, 1, 9, 7, 10, 8, 11, 5]))
 
 def g(L):
     D = {}
-    key = 1
+    time = 0
     while L:
-        current = L[0]
-        value_list = [0, current]
-        for i in range(1, len(L)):
-            if L[i] > current:
-                value_list.append(L[i])
-                current = L[i]
-        D[key] = value_list
-        L = [x for x in L if x not in value_list[1:]]
-        key += 1
+        time += 1
+        maximum = 0
+        row = []
+        initial = L[0]
+        delist = []
+        for i in range(len(L)):
+            if L[i] > maximum:
+                maximum = L[i]
+                # L.pop(i)
+                delist.append(i)
+                row.append(L[i])
+        row.reverse()
+        row.append(0)
+        row.reverse()
+        D[time] = row
+        for item in delist[::-1]:
+            L.pop(item)
     return D
+print(g([8, 9, 2, 6, 4, 5, 3, 1, 10, 7]))

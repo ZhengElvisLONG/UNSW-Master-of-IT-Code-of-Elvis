@@ -1,0 +1,13 @@
+\documentclass{standalone}
+\usepackage{TangramTikz}
+\begin{document}
+\begin{EnvTangramTikz}
+    \PieceTangram[TangSol]({0},{0}){TangGrandTri}                                                   % One large triangle
+    \PieceTangram[TangSol]<rotate=180>({2},{0}){TangGrandTri}                             % Another large triangle
+    \PieceTangram[TangSol]<rotate=45>({2},{-0.5}){TangPetTri}                                % A small triangle
+    \PieceTangram[TangSol]<rotate=-90>({2},{3}){TangPetTri}                                   % Another small triangle
+    \PieceTangram[TangSol]<xscale=-1,rotate=-45>({0},{-2}){TangPara}                   % The parallelogram
+    \PieceTangram[TangSol]({-0.5*sqrt(2)},{-2-0.5*sqrt(2)}){TangMoyTri}                   % The medium triangle
+    \PieceTangram[TangSol]<rotate=-45>({1-0.5*sqrt(2)},{-1-0.5*sqrt(2)}){TangCar} % the square
+\end{EnvTangramTikz}
+\end{document}

@@ -1,0 +1,27 @@
+\documentclass{standalone}
+\usepackage{TangramTikz}
+\begin{document}
+
+% As opposed to integer literals, a floating point literal can start with 0,
+% actually with any number of 0s; that is stupid, but it makes our life easier!
+
+% A number, floating point or integer, can always start with +.
+% Still, we assume that sqrt(2) is always written as sqrt(2) not as sqrt(+2);
+% that also makes our life easier!
+% Also, when a number x is added or subtracted to another number,
+% we assume that x is positive and not preceded by +.
+% If our code is more robust, then that is fine; just that it won't be tested!
+
+\begin{EnvTangramTikz}
+  \PieceTangram[TangSol]<rotate=-135>({+sqrt(2)},{+0+1*sqrt(2)}){TangGrandTri}
+  \PieceTangram[TangSol]<rotate=1665>({0},{-0+0*sqrt(2)}){TangCar}
+  \PieceTangram[TangSol]<rotate=-45>({-1.5000*sqrt(2)},{0.5*sqrt(2)}){TangGrandTri}
+  \PieceTangram[TangSol]<xscale=-1>({1-1.5*sqrt(2)},{.50*sqrt(2)}){TangPara}
+  \PieceTangram[TangSol]({-2-1.5*sqrt(2)},{+1+0.5*sqrt(2)}){TangMoyTri}
+  \PieceTangram[TangSol]<rotate=45>({sqrt(2)},{+0-1.5*sqrt(2)}){TangPetTri}
+%                          % Isn't it stupid too to ...
+  \PieceTangram[TangSol]<xscale=-1,rotate=3780,yscale=-1>({-000.500},{-0.5-sqrt(2)}){TangPetTri} % ... like here ...
+%                          % ... flip one way, rotate like crazy and flip another way to stay unchanged!
+\end{EnvTangramTikz}
+
+\end{document}

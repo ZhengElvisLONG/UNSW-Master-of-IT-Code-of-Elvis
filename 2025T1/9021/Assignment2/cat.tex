@@ -1,0 +1,25 @@
+\documentclass{standalone}
+\usepackage{TangramTikz}
+
+\begin{document}
+
+% No one can deny that this is a cat.
+\begin{EnvTangramTikz}
+		\PieceTangram[TangSol]<rotate = 45>({2 - sqrt(2)}, {2 + sqrt(2)}){TangCar}
+		
+		\PieceTangram[TangSol]<rotate = 0>({0}, {0}){TangGrandTri}
+		
+		\PieceTangram[TangSol]<rotate = 45>({2 - sqrt(2)},{2 - sqrt(2)}){TangGrandTri}
+		
+		\PieceTangram[TangSol]({2}, {0}){TangPara}
+		
+		% This is the left ear
+		\PieceTangram[TangSol]<rotate = 45>({2 - 1.5 * sqrt(2)}, {2 + 1.5 * sqrt(2)}){TangPetTri}
+		
+		% This is the right ear, just rotated by -135 degrees.
+		\PieceTangram[TangSol]<xscale = -1, rotate = -315, yscale = -1>({2-0.5 * sqrt(2)}, {2 + 2.5 * sqrt(2)}){TangPetTri}
+		
+		\PieceTangram[TangSol]<rotate = 90>({2 - sqrt(2)}, {sqrt(2)}){TangMoyTri}
+\end{EnvTangramTikz}
+
+\end{document}
